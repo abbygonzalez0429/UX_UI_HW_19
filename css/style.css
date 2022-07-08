@@ -14,6 +14,10 @@ nav {
     align-items: center;
 }
 
+.nav-item:hover{
+    font-weight: bold;
+}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -84,6 +88,28 @@ ul li {
   .Tangerine {
     background-color: #F49A67;
   }
+  .candysCats {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    width: 460px;
+    height:460px;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(244, 154, 103, 1);
+    color: white;
+}
+
+.candysCats:hover .overlay {
+    opacity: 0.7;
+  }
+
+.overview {
+    margin-top: 25%;
+    padding-left: 5%;
+}
+
 h1 {
     display: flex;
     align-items: center;
@@ -108,7 +134,45 @@ h2 {
     margin-top: 2px;
 }
 
-.text {
+h3 {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    letter-spacing: 3px;
+    color: white;
+
+}
+h4{
+    display: flex;
+    text-align: left;
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: white;
+
+}
+
+.text1 {
+    padding: 150px 0;
+    opacity: 0;
+}
+.text2 {
+    padding: 150px 0;
+    opacity: 0;
+}
+.text3 {
+    padding: 150px 0;
+    opacity: 0;
+}
+.text4 {
+    padding: 150px 0;
+    opacity: 0;
+}
+.text5 {
     padding: 150px 0;
     opacity: 0;
 }
