@@ -1,0 +1,346 @@
+nav {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+header {
+    width: 100%;
+    padding: 25px;
+}
+
+.nav-item {
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-size: 36px;
+    color: #3E824B;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+    align-items: center;
+}
+.nav-item:hover{
+    font-weight: bold;
+}
+.nav-item-mobile {
+    display: none;
+    background-image: ()
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+    
+.Main-Logo {
+    display: flex;
+    width: 450px;
+    height: 253px;
+    justify-content: center;
+}
+
+ul li { 
+    display: inline;
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+}
+.social-logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+#section-1 {
+    display: inline-block;
+    max-height: 729px;
+}
+.profilepic {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+.textbox{
+    width: 80%;
+}
+h1 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #586BCF;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+h2 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #586BCF;
+    margin-top: 0px;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 300px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+h4 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+h5 {
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bold;
+}
+h6 {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+h7 {
+    display: inline;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 68px;
+    font-weight: bold;
+    color: #E66B6B;
+}
+p {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 18px;
+}
+button {
+    background-color: #3E824B;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    border: none;
+    padding: 15px 32px;
+    transition: 1s ease;
+    width: 250px;
+}
+button:hover {
+    background-color: #F89FEA;
+    color:white;
+    font-size: 20px;
+}
+#section-2 {
+    display: inline-block;
+    max-height: 600px;
+}
+.gridContainer {
+    display: inline-grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 5px;
+    justify-content: space-around;
+    color: white;
+    font-size: 68px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-weight: bold;
+ }
+ .rectangle {
+    height: 499px;
+    width: 344px;
+    margin: 9px;
+    text-align: center;
+ }
+
+ .Bubblegum {
+    background-color: #F89FEA;
+    margin-top: 30%;
+  }
+  .Tangerine {
+    background-color: #F49A67;
+    margin-top: 50%;
+  }
+  .Amazon {
+    background-color: #3E824B;
+}
+ .HanBlue {
+    background-color: #586BCF;
+    margin-top: 30%;
+  }
+  .Amazon {
+      background-color: #3E824B;
+  }
+  #section-3 {
+      display: inline-block;
+  }
+  .textheader {
+      margin-top: 115px;
+      margin-left: 9px;
+  }
+  .lineStyle {
+      width: 77%;
+      float: right;
+      height: 6px;
+      background-color: #E66B6B;
+      border:none;
+      margin-top: 45px;
+
+  }
+  .maingroup {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+  }
+  .group-1 {
+      display: grid;
+      grid-template-rows: 1fr, 1fr, 1fr;
+  }
+  h8 {
+      font-family: "Poppins", "Arial", sans-serif;
+      font-size: 56px;
+      font-weight: bold;
+      padding-left: 20px;
+  }
+  p2 {
+      padding: 20px;
+  }
+  .pink {
+      color: #F89FEA;
+  }
+  .orange {
+      color: #F49A67;
+  }
+  .blue {
+      color: #586BCF;
+  }
+  .green {
+      color: #3E824B;
+  }
+  .red {
+      color: #E66B6B;
+  }
+
+  .group-2 {
+      display: grid;
+      grid-template-rows: 1fr;
+  }
+  .group-3 {
+      display: grid;
+  }
+
+.skills-1 {
+      display: flex;
+      justify-content: flex-end;
+}
+.skills-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+  h9 {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-size: 56px;
+    font-weight: bold;
+    padding-right: 20px;
+}
+p3 {
+    text-align: right;
+    padding-right: 20px;
+}
+p4 {
+    text-align: left;
+    font-size: 30px;
+    color: green;
+    padding-right: 25px;
+}
+p5 {
+    text-align: right;
+    font-size: 30px;
+    color: green;
+    padding-left: 25px;
+}
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(244, 154, 103, .3);
+    padding: 15px;
+    margin-top: 15px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3E824B;
+}
+@media only screen and (max-width: 600px) {
+    .nav-item {
+        display: none;
+    }
+    .nav-item-mobile {
+        display: block;
+    }
+    .social-logo {
+        display: none;
+    }
+    .Main-Logo {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .profilepic {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+    }
+    #section-2 {
+        display: flex;
+        max-height: none;
+        justify-content: center;
+    }
+    .gridContainer{
+        grid-template-columns: 1fr;
+        grid-gap: 1px;
+    }
+    .rectangle {
+    height: 499px;
+    width: 500px;
+    }
+    .Bubblegum{
+    margin-top: 15px;
+    }
+    .Tangerine {
+    margin-top: 0px;
+    }
+    .HanBlue {
+        margin-top: 0px;
+    }
+    h3 {
+        padding: 120px;
+    }
+    h4 {
+        padding: 100px;
+    }
+    h5 {
+        padding: 85px;
+    }
+    h6 {
+        padding: 25px 0;
+    }
+    .textheader {
+        margin-top: 50px;
+        margin-bottom: 25px;
+    }
+    .lineStyle {
+        display: none;
+    }
+    .maingroup {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .group-2 {
+        display: flex;
+        width: 600px;
+    }
+    .footerContainer {
+        text-align: center;
+        margin-top: 35px;
+    }
+}

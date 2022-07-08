@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-size: 36px;
+    color: #3E824B;
+    letter-spacing: 3px;
+    padding: 16px 32px;
+    align-items: center;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+    
+.Main-Logo {
+    display: flex;
+    width: 450px;
+    height: 253px;
+    justify-content: center;
+}
+
+ul li { 
+    display: inline;
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+}
+.social-logo {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+}
+.Hero-section {
+    display: flex;
+    align-items: center;
+    height: 1020px;
+    justify-content: center;
+}
+.gridContainer {
+   display: inline-grid;
+   grid-template-columns: 30% 30% 30%;
+   grid-template-rows: 50% 50%;
+   grid-gap: 20px;
+   justify-content: space-around;
+}
+
+.square {
+    height: 460px;
+    width: 460px;
+    justify-content: center;
+}
+.footerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(244, 154, 103, .3);
+    padding: 15px;
+    font-family: 'Poppins', 'Arial', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #3E824B;
+}
+.HanBlue {
+    background-color: #586BCF;
+  }
+  .Bubblegum {
+    background-color: #F89FEA;
+  }
+  .Amazon {
+      background-color: #3E824B;
+  }
+  .Strawberry {
+      background-color: #E66B6B;
+  }
+  .Tangerine {
+    background-color: #F49A67;
+  }
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+}
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Poppins', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+
+.text {
+    padding: 150px 0;
+    opacity: 0;
+}
