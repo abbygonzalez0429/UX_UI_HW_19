@@ -271,6 +271,7 @@ p5 {
     letter-spacing: 1px;
     color: #3E824B;
 }
+
 @media only screen and (max-width: 600px) {
     .nav-item {
         display: none;
