@@ -8,6 +8,10 @@ header {
     width: 100%;
     padding: 25px;
 }
+a {
+    color: #3E824B !important;
+    text-decoration: none !important;
+}
 
 .nav-item {
     font-family:'Poppins', 'Arial', sans-serif;
